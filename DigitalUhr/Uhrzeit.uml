@@ -1,0 +1,29 @@
+﻿[Files]
+File0=C:\Users\davide.albano\Desktop\DigitalUhr\Uhrzeit.java
+
+[Box:  - Uhrzeit]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=10
+ShowObjectDiagram=0
+
+[Interactive]
+I0=
+
