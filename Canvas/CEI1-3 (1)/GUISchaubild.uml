@@ -1,0 +1,43 @@
+﻿[Files]
+File0=C:\Users\alban\Desktop\1 CT\12\Java\Canvas\CEI1-3 (1)\GUI.java
+File1=C:\Users\alban\Desktop\1 CT\12\Java\Canvas\CEI1-3 (1)\Schaubild.java
+
+[Box:  - GUI]
+X=350
+Y=116
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=Segoe UI
+
+[Box:  - Schaubild]
+X=33
+Y=275
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=GUI#Schaubild#AssociationDirected####0#0#0###0#0
+
+[Interactive]
+I0=
+
