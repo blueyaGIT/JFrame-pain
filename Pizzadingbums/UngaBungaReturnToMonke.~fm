@@ -1,0 +1,439 @@
+object UngaBungaReturnToMonke: TFGUIForm
+  Left = 947
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'UngaBungaReturnToMonke'
+  ClientHeight = 800
+  ClientWidth = 492
+  Color = clBtnFace
+  ParentFont = True
+  FormStyle = fsStayOnTop
+  OldCreateOrder = True
+  Position = poDesigned
+  ShowHint = True
+  Visible = True
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnMouseActivate = FormMouseActivate
+  OnResize = FormResize
+  FrameType = 5
+  Modified = False
+  Resizable = False
+  Undecorated = False
+  Background = clBtnFace
+  PixelsPerInch = 96
+  TextHeight = 13
+  object cbTomaten1: TJCheckBox
+    Tag = 5
+    Left = 39
+    Top = 36
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = True
+    Text = '  Tomaten'
+  end
+  object cbMozzarella: TJCheckBox
+    Tag = 5
+    Left = 175
+    Top = 36
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = True
+    Text = '  Mozzarella'
+  end
+  object cbOregano: TJCheckBox
+    Tag = 5
+    Left = 319
+    Top = 36
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = True
+    Text = '  Oregano'
+  end
+  object cbSalami: TJCheckBox
+    Tag = 5
+    Left = 39
+    Top = 92
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Salami'
+  end
+  object cbOliven: TJCheckBox
+    Tag = 5
+    Left = 175
+    Top = 92
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Oliven'
+  end
+  object cbPilze: TJCheckBox
+    Tag = 5
+    Left = 319
+    Top = 92
+    Width = 164
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Pilze'
+  end
+  object rbKlein1: TJRadioButton
+    Tag = 6
+    Left = 40
+    Top = 169
+    Width = 100
+    Height = 20
+    Hint = 'jRadioButton1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = 'Klein'
+    ButtonGroup = 'groesse'
+  end
+  object rbMittel1: TJRadioButton
+    Tag = 6
+    Left = 176
+    Top = 169
+    Width = 100
+    Height = 20
+    Hint = 'jRadioButton1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = 'Mittel'
+    ButtonGroup = 'groesse'
+  end
+  object rbGross1: TJRadioButton
+    Tag = 6
+    Left = 320
+    Top = 169
+    Width = 100
+    Height = 20
+    Hint = 'jRadioButton1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = 'Gro'#223
+    ButtonGroup = 'groesse'
+  end
+  object rbAbholung: TJRadioButton
+    Tag = 6
+    Left = 115
+    Top = 233
+    Width = 100
+    Height = 20
+    Hint = 'jRadioButton1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Abholung'
+    ButtonGroup = 'abholen'
+  end
+  object rbLiefern: TJRadioButton
+    Tag = 6
+    Left = 267
+    Top = 234
+    Width = 100
+    Height = 20
+    Hint = 'jRadioButton2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Liefern'
+    ButtonGroup = 'abholen'
+  end
+  object jComboBoxLieferung: TJComboBox
+    Tag = 9
+    Left = 267
+    Top = 263
+    Width = 150
+    Height = 20
+    Hint = 'jComboBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = 15658734
+    Editable = False
+    SelectedIndex = 0
+    Items.Strings = (
+      'Schw'#228'bisch Gm'#252'nd'
+      'Eschach'
+      'Durlangen'
+      'Lorch'
+      'Waldstetten'
+      'Stra'#223'dorf'
+      'Nordkorea'
+      'Leinzell'
+      'Brainkofen'
+      'Iggingen'
+      'G'#246'ggingen')
+  end
+  object abholen: TJButtonGroup
+    Tag = 7
+    Left = 447
+    Top = 31
+    Width = 33
+    Height = 28
+    Hint = 'buttonGroup1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = 15658734
+  end
+  object groesse: TJButtonGroup
+    Tag = 7
+    Left = 452
+    Top = 64
+    Width = 33
+    Height = 28
+    Hint = 'buttonGroup2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = 15658734
+  end
+  object bPreisberechnen: TJButton
+    Tag = 4
+    Left = 56
+    Top = 318
+    Width = 123
+    Height = 25
+    Hint = 'jButton1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = 15658734
+    actionPerformed = 'bPreisberechnen_ActionPerformed'
+    Text = 'Preis berechnen'
+    Mnemonic = 0
+    DisplayedMnemonicIndex = 0
+    Selected = False
+    BorderPainted = True
+    FocusPainted = False
+    ContentAreaFilled = True
+    HorizontalAlignment = CENTER
+    VerticalAlignment = CENTER
+    HorizontalTextPosition = RIGHT
+    VerticalTextPosition = CENTER
+    IconTextGap = 4
+    RolloverEnabled = False
+    Border.BorderType = NoBorder
+    Border.LineColor = clBlack
+    Border.LineThickness = 0
+    Border.LineRounded = False
+    Border.EtchHighlightColor = clBlack
+    Border.EtchShadowColor = clBlack
+    Border.Etchtype = 0
+    Border.BevelHighlightColor = clBlack
+    Border.BevelShadowColor = clBlack
+    Border.Beveltype = 0
+    Border.MatteColor = clBlack
+    Border.MatteTop = 0
+    Border.MatteLeft = 0
+    Border.MatteBottom = 0
+    Border.MatteRight = 0
+  end
+  object jTextFieldPreis: TJTextField
+    Tag = 2
+    Left = 272
+    Top = 320
+    Width = 145
+    Height = 25
+    Cursor = crIBeam
+    Hint = 'jTextField1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = []
+    Foreground = 3355443
+    Background = clWhite
+    HorizontalAlignment = LEFT
+    Text = ''
+    Editable = True
+  end
+  object lGesamt1: TJLabel
+    Tag = 1
+    Left = 208
+    Top = 320
+    Width = 57
+    Height = 25
+    Hint = 'jLabel1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Text = '  Gesamt'
+    HorizontalAlignment = RIGHT
+    VerticalAlignment = CENTER
+    HorizontalTextPosition = RIGHT
+    VerticalTextPosition = CENTER
+    IconTextGap = 4
+    DisplayedMnemonic = 0
+    DisplayedMnemonicIndex = 0
+  end
+  object jListZutaten: TJList
+    Tag = 8
+    Left = 56
+    Top = 368
+    Width = 361
+    Height = 257
+    Hint = 'jList1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clWhite
+    SelectionMode = MULTIPLE_INTERVAL
+    FixedCellHeight = -1
+    FixedCellWidth = -1
+    LayoutOrientation = VERTICAL
+    SelectionBackground = 15060920
+    SelectionForeground = 3355443
+    VisibleRowCount = 8
+    HorizontalScrollBarPolicy = AS_NEEDED
+    VerticalScrollBarPolicy = AS_NEEDED
+    SelectedIndex = -1
+  end
+  object cbSardinen: TJCheckBox
+    Tag = 5
+    Left = 39
+    Top = 132
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Sardinen'
+  end
+  object cbAnanas: TJCheckBox
+    Tag = 5
+    Left = 175
+    Top = 132
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Ananas'
+  end
+  object cbThunfisch: TJCheckBox
+    Tag = 5
+    Left = 319
+    Top = 132
+    Width = 100
+    Height = 20
+    Hint = 'jCheckBox1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Selected = False
+    Text = '  Thunfisch'
+  end
+end
